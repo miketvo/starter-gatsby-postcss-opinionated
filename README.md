@@ -2,7 +2,7 @@
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" height="60" />
   </a>
-  <div style="margin: 0 16px; font-size: 32px; font-weight: bold">+</div>
+  <h1 style="padding: 0; margin: 16px;">+</h1>
   <a href="https://postcss.org">
     <img alt="PostCSS" src="https://raw.githubusercontent.com/postcss/brand/master/dist/postcss-logo-symbol.svg" width="60" height="60" />
   </a>  
