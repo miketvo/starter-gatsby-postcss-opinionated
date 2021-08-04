@@ -1,4 +1,4 @@
-<div style="display: flex; justify-content: center; align-items: center; margin-top: 60px;">
+<div align="center" style="display: flex; justify-content: center; align-items: center; margin-top: 60px;">
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" height="60" />
   </a>
@@ -7,7 +7,7 @@
     <img alt="PostCSS" src="https://raw.githubusercontent.com/postcss/brand/master/dist/postcss-logo-symbol.svg" width="60" height="60" />
   </a>  
 </div>
-<h1 style="text-align: center">
+<h1 align="center" style="text-align: center">
   A Gatsby + PostCSS bare-bone opinionated starter.
 </h1>
 
@@ -44,6 +44,38 @@
 - `normalize.css`
 - `postcss`
 - `postcss-preset-env`
+
+## 🚀 Quick start
+
+1. **Create a Gatsby site.**
+
+   Use the Gatsby CLI ([install instructions](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli)) to create a
+   new site, specifying this starter.
+
+   ```shell
+   # create a new Gatsby site using this starter
+   gatsby new my-project https://github.com/miketvo/starter-gatsby-postcss-opinionated
+   ```
+
+1. **Start developing.**
+
+   Navigate into your new site’s directory and start it up.
+
+   ```shell
+   cd my-project/
+   npm run develop
+   ```
+
+1. **Open the source code and start editing!**
+
+   Your site is now running at `http://localhost:8000`!
+
+   _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment
+   with querying your data. Learn more about using this tool in
+   the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
+
+   Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your
+   changes and the browser will update in real time!
 
 ## 🧐 What's inside?
 
