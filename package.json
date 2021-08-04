@@ -1,6 +1,6 @@
 {
   "name": "starter-gatsby-postcss-opinionated",
-  "private": true,
+  "private": false,
   "description": "A Gatsby + PostCSS bare-bone opinionated starter.",
   "version": "0.1.0",
   "author": "Mike Vo <info@miketvo.com>",
