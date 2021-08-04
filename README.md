@@ -18,7 +18,7 @@
 - Enforce specific coding styles using [EditorConfig](https://editorconfig.org/) and [Prettier](https://prettier.io/).
 - Uses CSS modules for separation of content, style, and logic.
 - Uses [Normalize.css](https://necolas.github.io/normalize.css/).
-- Uses [PostCSS](https://postcss.org/)
+- Uses [PostCSS](https://postcss.org/).
 - Important files:
   - **`src/styles/global.module.css`**: PostCSS environment presets.
   - **`src/styles/animations.css`**: All common CSS animations goes here.
