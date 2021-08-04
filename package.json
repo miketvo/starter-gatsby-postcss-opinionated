@@ -1,0 +1,59 @@
+{
+  "name": "starter-gatsby-postcss-opinionated",
+  "private": true,
+  "description": "A Gatsby + PostCSS bare-bone opinionated starter.",
+  "version": "0.1.0",
+  "author": "Mike Vo <info@miketvo.com>",
+  "dependencies": {
+    "gatsby": "^3.10.2",
+    "gatsby-plugin-gatsby-cloud": "^2.10.1",
+    "gatsby-plugin-image": "^1.10.1",
+    "gatsby-plugin-manifest": "^3.10.0",
+    "gatsby-plugin-offline": "^4.10.0",
+    "gatsby-plugin-postcss": "^4.10.0",
+    "gatsby-plugin-react-helmet": "^4.10.0",
+    "gatsby-plugin-sharp": "^3.10.2",
+    "gatsby-source-filesystem": "^3.10.0",
+    "gatsby-transformer-sharp": "^3.10.0",
+    "normalize.css": "^8.0.1",
+    "postcss": "^8.3.6",
+    "postcss-preset-env": "^6.7.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
+  },
+  "keywords": [
+    "starter",
+    "react",
+    "gatsby",
+    "javascript",
+    "app",
+    "compiler",
+    "opinionated"
+  ],
+  "license": "0BDS",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "develop-network-preview": "gatsby develop -H 0.0.0.0",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "check-format": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "start-network-preview": "npm run develop-network-preview",
+    "serve": "gatsby serve",
+    "serve-network-preview": "gatsby serve -H 0.0.0.0",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miketvo/starter-gatsby-postcss-opinionated"
+  },
+  "bugs": {
+    "url": "https://github.com/miketvo/starter-gatsby-postcss-opinionated/issues"
+  }
+}

@@ -1,0 +1,61 @@
+@keyframes fadeInExpandX {
+  from {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  to {
+    opacity: 1.0;
+    transform: scaleX(1);
+  }
+}
+
+@keyframes fadeOutShrinkX {
+  from {
+    opacity: 1.0;
+    transform: scaleX(1);
+  }
+  to {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+}
+
+@keyframes fadeInExpandY {
+  from {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+  to {
+    opacity: 1.0;
+    transform: scaleY(1);
+  }
+}
+
+@keyframes fadeOutShrinkY {
+  from {
+    opacity: 1.0;
+    transform: scaleY(1);
+  }
+  to {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+}
+
+@keyframes slideInBottom {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOutTop {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100vh);
+  }
+}

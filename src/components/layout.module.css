@@ -1,0 +1,134 @@
+html {
+  font-family: var(--body-font);
+  font-size: 16px;
+  color: var(--white);
+  background: var(--light-black);
+  scroll-behavior: smooth !important;
+}
+
+main {
+  margin-top: 70px;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 1.0875rem 1.45rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--header-font);
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 27px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 21px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.6;
+}
+
+@media only screen and (--viewport-narrow) {
+  html {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 19px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+}
+
+.footer {
+  margin: 2rem auto 0 auto;
+  max-width: 960px;
+  padding: 0 1.0875rem 1.45rem;
+}
+
+@media only screen and (--viewport-regular) {
+  /* Media rules here */
+}
+
+@media only screen and (--viewport-narrow) {
+  /* Media rules here */
+}
+
+@media only screen and (--viewport-phone) {
+  html {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 19px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  h6 {
+    font-size: 15px;
+  }
+}
