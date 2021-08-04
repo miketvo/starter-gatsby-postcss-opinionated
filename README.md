@@ -74,7 +74,7 @@
    with querying your data. Learn more about using this tool in
    the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
-   Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your
+   Open the `my-project` directory in your code editor of choice and edit `src/pages/index.js`. Save your
    changes and the browser will update in real time!
 
 ## 🧐 What's inside?
