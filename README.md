@@ -7,7 +7,7 @@
     <img alt="PostCSS" src="https://raw.githubusercontent.com/postcss/brand/master/dist/postcss-logo-symbol.svg" width="60" height="60" />
   </a>  
 </div>
-<h1 align="center">
+<h1 style="text-align: center">
   A Gatsby + PostCSS bare-bone opinionated starter.
 </h1>
 
