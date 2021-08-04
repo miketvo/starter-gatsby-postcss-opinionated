@@ -131,7 +131,7 @@
     the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization
     of default Gatsby settings affecting server-side rendering.
 
-12. **`LICENSE`**: All rights reserved
+12. **`LICENSE`**: 0BSD
 
 13. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the
     exact versions of your npm dependencies that were installed for your project. **(You won’t change this file
